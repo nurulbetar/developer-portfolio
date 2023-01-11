@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.container{
+    background: #FFF8F3; 
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    
+} 
+nav{
+    margin-top: 50px;
+}
+span{
+    color:#FD6E0A
+}
+h3{
+    font-weight: 800;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+}
+.btn{
+    background-color:#FD6E0A;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 5px;
+}
+.btn-contact{
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    color:#FD6E0A;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #FD6E0A; 
+    margin-left: 30px;
+}
+/* header-text */
+.header-info{
+    margin: 0px 230px;  
+    display: flex;
+    align-items: center;
+}
+.hader-text h4{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+    font-family: 'Open Sans';
+}
+.hader-text h3{
+    font-weight: 700;
+    font-size: 66px;
+    font-family: 'Open Sans';
+    margin-bottom: 20px;
+}
+.hader-text p{
+    margin-bottom: 50px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+.header-image img{
+    width: 500px;
+}
